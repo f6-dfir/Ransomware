@@ -7,7 +7,6 @@ We were motivated by the desire to solve a complex cryptographic challenge with 
 
 
 #### **Key Features**
-The program was developed **solely through reverse-engineering and analysis** of the RedPetya ransomware.  
-No external source code or ideas were used.  
+It is **our original implementation**, developed solely through reverse engineering of the ransomware.  
 It intentionally avoids complex algorithms and multithreading.  
 The password **is brute-forced almost instantly**, achieved through straightforward computations.
