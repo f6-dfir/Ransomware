@@ -1,5 +1,6 @@
 ### **RedPetyaBruter**
 ---
+
 This tool **brute-forces passwords** for decrypting systems locked by RedPetya ransomware.  
 It is designed as a direct alternative to [hack-petya](https://github.com/leo-stone/hack-petya).
 ---
