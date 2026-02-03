@@ -2,10 +2,7 @@
 
 
 This tool **brute-forces passwords** for decrypting systems locked by RedPetya ransomware.  
-It is designed as a direct alternative to [hack-petya](https://github.com/leo-stone/hack-petya).
-
-
-#### **Why We Built It**
+It is designed as a direct alternative to [hack-petya](https://github.com/leo-stone/hack-petya).  
 We were motivated by the desire to solve a complex cryptographic challenge with an elegantly simple approach.
 
 
