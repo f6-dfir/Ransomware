@@ -214,6 +214,9 @@ cozumanahtari1@gmail.com
 .datawar
 dataleaks5@gmail.com
 
+.encryptfile
+dataleaks5@gmail.com
+
 
 v7.0
 
