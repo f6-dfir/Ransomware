@@ -354,3 +354,6 @@ alphabet@firemail.eu
 
 data.recovery@onionmail.org
 revival.recovery@2mail.co
+
+kotaneex@onionmail.org
+kotaneex2@onionmail.com
