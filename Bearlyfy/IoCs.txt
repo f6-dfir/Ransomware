@@ -1,4 +1,4 @@
-Имена файлов:
+File names:
 svchos.exe
 winapp.exe
 intel2.exe
