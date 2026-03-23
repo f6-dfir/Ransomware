@@ -34,6 +34,16 @@ import genie
 RANSOM_EXT = '.0000000000000000'
 
 
+# XChaCha20-Poly1305
+KEY_SIZE = genie.XCHACHA20POLY1305_KEY_SIZE
+NONCE_SIZE = genie.XCHACHA20POLY1305_NONCE_SIZE
+TAG_SIZE = genie.XCHACHA20POLY1305_TAG_SIZE
+
+
+# BLAKE2b
+DIGEST_SIZE = 32
+
+
 # Footer
 ENC_MARKER = b'GENIELOCK'
 FOOTER_HEADER_SIZE = 4 + 4 + len(ENC_MARKER)
@@ -41,18 +51,15 @@ FOOTER_HEADER_SIZE = 4 + 4 + len(ENC_MARKER)
 # Metadata
 METADATA_PERCENT_POS = 1
 METADATA_NONCE_POS = METADATA_PERCENT_POS + 1
-METADATA_NONCE_SIZE = genie.XCHACHA20_NONCE_SIZE
-METADATA_FILESIZE_POS = METADATA_NONCE_POS + METADATA_NONCE_SIZE
+METADATA_FILESIZE_POS = METADATA_NONCE_POS + NONCE_SIZE
 METADATA_SIZEINBLOCKS_POS = METADATA_FILESIZE_POS + 8
 METADATA_BLOCKSIZE_POS = METADATA_SIZEINBLOCKS_POS + 8
 METADATA_LASTBLOCKSIZE_POS = METADATA_BLOCKSIZE_POS + 4
 METADATA_DATADIGEST_POS = METADATA_LASTBLOCKSIZE_POS + 4
-METADATA_DATADIGEST_SIZE = 32
-METADATA_NUMBLOCKS_POS = METADATA_DATADIGEST_POS + METADATA_DATADIGEST_SIZE
+METADATA_NUMBLOCKS_POS = METADATA_DATADIGEST_POS + DIGEST_SIZE
 METADATA_RANSOMEXT_POS = METADATA_NUMBLOCKS_POS + 4
 METADATA_RANSOMEXT_SIZE = 64
 METADATA_TAG_POS = METADATA_RANSOMEXT_POS + METADATA_RANSOMEXT_SIZE
-METADATA_TAG_SIZE = genie.XCHACHA20POLY1305_TAG_SIZE
 
 
 ENC_BLOCK_SIZE = 0x1000000
@@ -88,8 +95,7 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
             return False
 
         footer_data_size = footer_size - FOOTER_HEADER_SIZE
-        if (footer_data_size <= enc_metadata_size +
-                                genie.XCHACHA20_NONCE_SIZE):
+        if (footer_data_size <= enc_metadata_size + NONCE_SIZE):
             return False
 
         if file_size < footer_size:
@@ -100,13 +106,12 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
         footer_data = f.read(footer_data_size)
 
         enc_keydata_size = (footer_data_size -
-                            (enc_metadata_size + genie.XCHACHA20_NONCE_SIZE))
+                            (enc_metadata_size + NONCE_SIZE))
 
         enc_keydata = footer_data[:enc_keydata_size]
         nonce = footer_data[enc_keydata_size: 
-                            enc_keydata_size + genie.XCHACHA20_NONCE_SIZE]
-        enc_metadata = footer_data[enc_keydata_size +
-                                   genie.XCHACHA20_NONCE_SIZE:
+                            enc_keydata_size + NONCE_SIZE]
+        enc_metadata = footer_data[enc_keydata_size + NONCE_SIZE:
                                    footer_data_size]
 
         # Decrypt XChaCha20-Poly1305 key
@@ -131,12 +136,11 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
 
         enc_percent = metadata[METADATA_PERCENT_POS]
         nonce2 = metadata[METADATA_NONCE_POS:
-                          METADATA_NONCE_POS + METADATA_NONCE_SIZE]
+                          METADATA_NONCE_POS + NONCE_SIZE]
         orig_file_size, size_in_blocks, block_size, last_block_size = \
             struct.unpack_from('<QQLL', metadata, METADATA_FILESIZE_POS)
         data_digest = metadata[METADATA_DATADIGEST_POS:
-                               METADATA_DATADIGEST_POS +
-                               METADATA_DATADIGEST_SIZE]
+                               METADATA_DATADIGEST_POS + DIGEST_SIZE]
         num_blocks, = struct.unpack_from('<L', metadata,
                                          METADATA_NUMBLOCKS_POS)
         ransom_ext_data = metadata[METADATA_RANSOMEXT_POS:
@@ -146,7 +150,7 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
 
         enc_size = num_blocks * block_size
 
-        mask_pos = METADATA_TAG_POS + num_blocks * METADATA_TAG_SIZE
+        mask_pos = METADATA_TAG_POS + num_blocks * TAG_SIZE
         mask_size = (size_in_blocks + 7) >> 3
         metadata_size = mask_pos + mask_size
 
@@ -162,7 +166,7 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
             return False
 
         # Decrypt file data
-        h = hashlib.blake2b(digest_size=METADATA_DATADIGEST_SIZE)
+        h = hashlib.blake2b(digest_size=DIGEST_SIZE)
 
         i = 0
         block_index = 0
@@ -176,10 +180,8 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
                 continue
 
             pos = i * block_size
-            tag = metadata[METADATA_TAG_POS +
-                           block_index * METADATA_TAG_SIZE:
-                           METADATA_TAG_POS +
-                           (block_index + 1) * METADATA_TAG_SIZE]
+            tag = metadata[METADATA_TAG_POS + block_index * TAG_SIZE:
+                           METADATA_TAG_POS + (block_index + 1) * TAG_SIZE]
 
             # Read block
             f.seek(pos)
