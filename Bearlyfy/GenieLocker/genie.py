@@ -118,6 +118,7 @@ if __name__ == '__main__':
     #
     import sys
     import io
+    import os
 
     if len(sys.argv) != 2:
         print('Usage:', os.path.basename(sys.argv[0]), 'filename')
