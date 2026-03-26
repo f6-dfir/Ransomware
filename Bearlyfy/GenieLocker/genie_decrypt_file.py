@@ -147,8 +147,6 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
                                    METADATA_RANSOMEXT_SIZE]
         ransom_ext = ransom_ext_data.rstrip(b'\0').decode()
 
-        enc_size = num_blocks * block_size
-
         mask_pos = METADATA_TAG_POS + num_blocks * TAG_SIZE
         mask_size = (size_in_blocks + 7) >> 3
         metadata_size = mask_pos + mask_size
