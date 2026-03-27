@@ -90,14 +90,12 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
         print('enc metadata size:', enc_metadata_size)
         print('footer size:', footer_size)
 
-        if footer_size <= FOOTER_HEADER_SIZE:
+        if ((file_size < footer_size) or
+            (footer_size <= FOOTER_HEADER_SIZE)):
             return False
 
         footer_data_size = footer_size - FOOTER_HEADER_SIZE
         if (footer_data_size <= enc_metadata_size + NONCE_SIZE):
-            return False
-
-        if file_size < footer_size:
             return False
 
         # Read footer data
