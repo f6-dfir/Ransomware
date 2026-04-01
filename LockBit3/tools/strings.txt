@@ -61,6 +61,8 @@ ds.exe
 mordor.exe
 blackjack.exe
 bj.exe
+read_me.txt
+blackfield_readme.txt
 386
 adv
 ani
@@ -122,6 +124,8 @@ pol
 mui
 readme
 387
+blackfl
+blackfl3
 WS2019
 WS2024
 DC-01
