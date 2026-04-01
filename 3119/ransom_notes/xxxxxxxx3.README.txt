@@ -1,0 +1,30 @@
+    ██████  ██░ ██  ███▄ ▄███▓▒██   ██▒  
+  ▒██    ▒ ▓██░ ██▒▓██▒▀█▀ ██▒▒▒ █ █ ▒░  
+  ░ ▓██▄   ▒██▀▀██░▓██    ▓██░░░  █   ░  
+    ▒   ██▒░▓█ ░██ ▒██    ▒██  ░ █ █ ▒   
+  ▒██████▒▒░▓█▒░██▓▒██▒   ░██▒▒██▒ ▒██▒  
+  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒░ ▒░   ░  ░▒▒ ░ ░▓ ░  
+  ░ ░▒  ░ ░ ▒ ░▒░ ░░  ░      ░░░   ░▒ ░  
+  ░  ░  ░   ░  ░░ ░░      ░    ░    ░    
+        ░   ░  ░  ░       ░    ░    ░    
+|
+|                        
+|-[ All your data were encrypted by SHMX Ransomware. ]
+|
+|-If you try to decrypt them yourself you will lose your domains,
+|-to decrypt all systems, you need to contact us for guidance and a data recovery tool in the future, 
+|-if you ignore our offer and the conversation does not take place, we will take extreme measures against your companies and your employees, 
+|-as a result of which you will lose access to all resources of your network and lose your reputation.
+|
+|-To contact us - register your mail here: https://account.proton.me/mail/signup?plan=free and write to us by email: [redacted]@proton.me
+|-We also have a backup method of communication in case you can’t handle mail, namely TELEGRAM: https://t.me/[redacted]
+|-Further negotiations regarding this situation will be conducted there.
+|
+|-Be sure to use a VPN, and do not attempt to write from other email addresses, as there is a high chance that the messages will not be delivered to either party.
+|
+|-You have 48 hours to contact us to establish negotiations and interaction, starting from the date of creation of this file.
+|-If you do not contact us within 2 days, we will consider this a refusal to cooperate. This will result in immediate measures, such as: the leak of your employees' personal data, your colleagues' credentials, internal research, and company documents. We have stolen large amounts of data from your databases and much more from your network. In addition to databases containing standard data, confidential data such as confidential company documents, developments, as well as information about experiments program and their officials have also been stolen. Your backups have also been destroyed, and the system cannot be restored without us.
+|
+|-Warning:
+_ Do not delete, modify, or attempt to recover files by any means other than using our key and decryptor. This will damage your data, and we cannot guarantee its recovery.
+_ Do not try to make this public, as you will only harm yourself and your reputation.
