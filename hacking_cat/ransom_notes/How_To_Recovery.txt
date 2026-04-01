@@ -1,0 +1,11 @@
+Your files have been encrypted by MonkeyRansomware. Sensitive internal data has been exfiltrated. Do not attempt decryption or recovery without our instructions or your data will be lost and leaked.
+
+What you must not do:
+- Do NOT use any recovery or decryption tools
+- Do NOT rename or modify encrypted files
+- Do NOT contact law enforcement or IT companies
+
+You have 48 hours to contact us:
+Email: [redacted]
+
+After this deadline, your data will be sold or leaked publicly. You have one chance. Follow our instructions if you want to avoid total loss and reputational disaster.

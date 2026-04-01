@@ -1,0 +1,21 @@
+ATTENTION! Your files have been encrypted by Benzona Ransomware.
+
+Sensitive data has been exfiltrated. Do not attempt to decrypt files yourself - this will lead to irreversible data loss and information leak.
+
+WHAT YOU MUST NOT DO:
+- Do not use recovery tools
+- Do not rename files
+- Do not contact law enforcement
+
+You have 72 hours to contact us:
+
+TO START NEGOTIATIONS:
+1. Download TOR Browser: https://www.torproject.org/download/
+2. Install and open TOR Browser
+3. Go to our chat: http://[redacted].onion/
+4. Enter your Chat ID: [redacted]
+
+News public:
+https://[redacted].onion/
+
+After deadline your data will be sold or published. Follow our instructions to avoid reputational losses.

