@@ -447,3 +447,6 @@ Telegram: @DecryptRu (https://t.me/DecryptRu)
 heizenberg@cyberfear.com
 heizenberg@onionmail.org
 TOX ID: 252BF1A1D301A5A38E42B3DD81190035DBB7595EC32BB3658CC77B9545255A5037851F9C2C02
+
+.systemofadown@cyberfear.com
+systemofadown@cyberfear.com
