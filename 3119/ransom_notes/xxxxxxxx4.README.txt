@@ -1,0 +1,46 @@
+ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓████████▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓████████▓▒░░▒▓█▓▒▒▓█▓▒░░▒▓██████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░   
+░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▓█▓▒░ ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▓█▓▒░ ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░  ░▒▓██▓▒░  ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░    ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░ 
+                                                                                                                            
+                                                                                                                            
+|                        
+|                            ALL YOUR COMPUTERS ARE ENCRYPTED
+|
+| Your computers and the data on them have been encrypted;
+| All files are encrypted, including domain controllers and critical servers;
+| Don`t trying to decrypt them yourself will permanently destroy your data
+|
+|                                --- CONTACT US ---
+|
+| You have 48 hours to contact us and begin negotiations;
+| If you don't contact us within 2 days, we will take action;
+| This includes publishing your employee records, login credentials, and company documents.
+|
+|                            --- HOW TO CONTACT US ---
+|
+| 1. Register your email here: https://account.proton.me/mail/signup?plan=free
+| 2. After that, write to us by email: [redacted]@proton.me
+| Otherwise, contact by TELEGRAM: https://t.me/[redacted]
+| 
+| Use a VPN when contacting us;
+| Don't use other email addresses (your messages will be blocked).
+|
+|                              --- WHAT'S NEXT? ---
+|
+| The 48-hour countdown starts from the time this file was created.
+| 
+| If you do not contact us, we will publish:
+|   Employee personal information;
+|   Colleague login details;
+|   Internal research and company documents;
+|   Logistics and supply chain records.
+|
+|                                   CRITICAL WARNINGS
+|
+| Don't delete, modify, or try to recover files without our key;
+| Don't run Hyper-V, vSphere, MSSQL, 1C Storage, etc.—active services may overwrite and permanently corrupt files;
+| Don't make this public or tell anyone as this will only harm you and destroy your reputation.
