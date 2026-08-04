@@ -467,3 +467,8 @@ recovery.data@mailum.com
 heizenberg@cyberfear.com
 heizenberg@onionmail.org
 TOX ID: 252BF1A1D301A5A38E42B3DD81190035DBB7595EC32BB3658CC77B9545255A5037851F9C2C02
+
+.Zolfaghar
+SimpleX: https://smp18.simplex.im/a#2yb2q22L-q-k8JOSu_JWaKegaquio3xOCtyTmJEkk7k
+Jabber: zolfaghar@xmpp.jp
+Telegram: @zolfaghar_decryption
