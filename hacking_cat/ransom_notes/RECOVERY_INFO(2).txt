@@ -1,0 +1,20 @@
+ATTENTION! Your files have been encrypted by LALIA Ransomware.
+
+Sensitive data has been exfiltrated. Do not attempt to decrypt files yourself - this will lead to irreversible data loss and information leak.
+
+WHAT YOU MUST NOT DO:
+- Do not use recovery tools
+- Do not rename files
+- Do not contact law enforcement
+
+To make sure that we REALLY CAN recover data - we offer you to decrypt samples.
+
+You have 72 hours to contact us on qTox:
+
+qTox ID: [redacted]
+
+Download qTox: https://github.com/qTox/qTox/releases
+
+Your Chat ID for verification: [redacted]
+
+After deadline your data will be sold or published. Follow our instructions to avoid reputational losses.
