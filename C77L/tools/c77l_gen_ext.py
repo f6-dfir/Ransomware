@@ -30,6 +30,7 @@ from typing import Callable
 
 RANSOM_EXT_CHARS1 = 'abcdefghijklmnopqrstuvwxyz0123456789'
 RANSOM_EXT_CHARS2 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+RANSOM_EXT_CHARS3 = 'abcdefghijklmnopqrstuvwxyz'
 
 
 # Hash function type
@@ -124,4 +125,12 @@ print('ABBCCDDEEFF0 (x64): \"%s\"' % ext)
 ext = '.' + get_ransom_ext1(victim_id, 5, fnv1a32, RANSOM_EXT_CHARS2, 27)
 print('ABBCCDDEEFF0 (x86): \"%s\"' % ext)
 ext = '.' + get_ransom_ext1(victim_id, 5, fnv1a64, RANSOM_EXT_CHARS2, 27)
+print('ABBCCDDEEFF0 (x64): \"%s\"' % ext)
+ext = '.' + get_ransom_ext1(victim_id, 5, fnv1a32, RANSOM_EXT_CHARS3)
+print('ABBCCDDEEFF0 (x86): \"%s\"' % ext)
+ext = '.' + get_ransom_ext1(victim_id, 5, fnv1a64, RANSOM_EXT_CHARS3)
+print('ABBCCDDEEFF0 (x64): \"%s\"' % ext)
+ext = '.' + get_ransom_ext1(victim_id, 3, fnv1a32, RANSOM_EXT_CHARS3)
+print('ABBCCDDEEFF0 (x86): \"%s\"' % ext)
+ext = '.' + get_ransom_ext1(victim_id, 3, fnv1a64, RANSOM_EXT_CHARS3)
 print('ABBCCDDEEFF0 (x64): \"%s\"' % ext)
