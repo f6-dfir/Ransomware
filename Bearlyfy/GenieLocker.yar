@@ -34,7 +34,8 @@ rule GenieLocker
         $s15 = { 33 C0 C7 83 [2] 00 00 44 4C 41 56 E9 }
 
     condition:
-        ((uint16(0) == 0x5A4D) and (uint32(uint32(0x3C)) == 0x00004550)) and
+        (((uint16(0) == 0x5A4D) and (uint32(uint32(0x3C)) == 0x00004550)) or
+         (uint32(0) == 0x464C457F)) and
         (
             (5 of ($s*))
         )
