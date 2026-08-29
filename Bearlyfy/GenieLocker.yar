@@ -7,8 +7,8 @@ rule GenieLocker
 {
     meta:
         author = "rivitna"
-        family = "ransomware.genielocker.windows"
-        description = "GenieLocker ransomware Windows payload"
+        family = "ransomware.genielocker"
+        description = "GenieLocker ransomware"
         severity = 10
         score = 100
 
