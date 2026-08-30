@@ -1,0 +1,1 @@
+https://www.f6.ru/blog/vantacore
