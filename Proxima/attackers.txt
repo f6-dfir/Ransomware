@@ -73,9 +73,15 @@ Telegram: @decdata
 
 .Qv
 .Spf
+.own
 owndecrypt@gmail.com
 owndecrypt@hotmail.com
 Telegram: @decdata
+
+.dec
+enddec2027@gmail.com
+enddec20277@hotmail.com
+Telegram: @dec20277
 
 .Merlin
 Session messenger ID: 05752759728f65ca92b3d98fc72500cdb7c5b11eb7b17f7d8afc6b8ecdcbdedf6d
