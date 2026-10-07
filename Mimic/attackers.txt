@@ -476,3 +476,6 @@ Telegram: @zolfaghar_decryption
 ..exe
 exefiles@duck.com
 LarkSuite: https://www.larksuite.com/invitation/page/add_contact/?token=ae0n0dfe-3cb1-48aa-88e5-d78180qvkebi&unique_id=ZWsDACaRbFNCLbbJVnbLRg==
+
+.ransomdata
+ransomdata@onionmail.org
