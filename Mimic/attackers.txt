@@ -491,3 +491,8 @@ Telegram: @BYSTRAYARASHIFROVKA
 .mariarti2026
 disk.recovery@onionmail.org
 email.recovery.data@mailum.com
+
+.pegasus_onionmail_org
+never_dont_panic@proton.me
+Telegram: @never_dont_panic
+TOX ID: BA5D4A7A46C1D6964D54530CAFF3154942754C717570583346E33041CBCE917CE96D8C21AE89
